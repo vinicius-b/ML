@@ -4,7 +4,6 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, recall_score, precision_score, classification_report, confusion_matrix
 
 wine = load_wine()
-n_classes = 3
 X = wine.data[:, :]
 Y = wine.target
 
